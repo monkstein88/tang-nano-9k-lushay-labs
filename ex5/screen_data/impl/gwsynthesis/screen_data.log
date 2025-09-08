@@ -1,0 +1,68 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\rows.sv'
+WARN  (EX2478) : Non-net output port 'hexChar' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\rows.sv":149)
+WARN  (EX2478) : Non-net output port 'hundreds' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\rows.sv":179)
+WARN  (EX2478) : Non-net output port 'tens' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\rows.sv":180)
+WARN  (EX2478) : Non-net output port 'units' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\rows.sv":181)
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\screen.sv'
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\text.sv'
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\top.sv'
+WARN  (EX2478) : Non-net output port 'LED_O' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\top.sv":31)
+WARN  (EX2478) : Non-net output port 'counterValue' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\top.sv":146)
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\uart.sv'
+Compiling module 'top'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\top.sv":22)
+Compiling module 'screen(STARTUP_WAIT=32'b00000000100110001001011010000000)'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\screen.sv":4)
+Extracting RAM for identifier 'setupCommands'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\screen.sv":43)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\screen.sv":91)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\screen.sv":104)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\screen.sv":115)
+Compiling module 'textEngine'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\text.sv":4)
+Extracting RAM for identifier 'fontBuffer'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\text.sv":14)
+Compiling module 'uart'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\uart.sv":6)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\uart.sv":53)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\uart.sv":56)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\uart.sv":64)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\uart.sv":71)
+Compiling module 'uartTextRow'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\rows.sv":55)
+Extracting RAM for identifier 'textBuffer'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\rows.sv":65)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\rows.sv":94)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\rows.sv":100)
+Compiling module 'counterM'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\top.sv":144)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\top.sv":156)
+Compiling module 'binaryRow'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\rows.sv":114)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 3("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\rows.sv":124)
+Compiling module 'hexDecRow'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\rows.sv":231)
+Compiling module 'toHex'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\rows.sv":146)
+Compiling module 'toDec'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\rows.sv":176)
+WARN  (EX3791) : Expression size 15 truncated to fit in target size 12("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\rows.sv":206)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\rows.sv":216)
+Compiling module 'progressRow'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\rows.sv":282)
+NOTE  (EX0101) : Current top module is "top"
+WARN  (EX0211) : The output port "LED_O[5]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\top.sv":31)
+WARN  (EX0211) : The output port "LED_O[4]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\top.sv":31)
+WARN  (EX0211) : The output port "LED_O[3]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\top.sv":31)
+WARN  (EX0211) : The output port "LED_O[2]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\top.sv":31)
+WARN  (EX0211) : The output port "LED_O[1]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\top.sv":31)
+WARN  (EX0211) : The output port "LED_O[0]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\top.sv":31)
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input BTN_S1 is unused("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\top.sv":29)
+WARN  (CV0016) : Input BTN_S2 is unused("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\src\top.sv":30)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\impl\gwsynthesis\screen_data.vg" completed
+[100%] Generate report file "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex5\screen_data\impl\gwsynthesis\screen_data_syn.rpt.html" completed
+GowinSynthesis finish

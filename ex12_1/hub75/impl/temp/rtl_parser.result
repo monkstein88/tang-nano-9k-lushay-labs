@@ -1,0 +1,28 @@
+[
+ {
+  "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex12_1/hub75/src/top.sv",
+  "InstLine" : 196,
+  "InstName" : "hub75_demo_driver",
+  "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex12_1/hub75/src/top.sv",
+  "ModuleLine" : 196,
+  "ModuleName" : "hub75_demo_driver",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex12_1/hub75/src/top.sv",
+    "InstLine" : 230,
+    "InstName" : "clkdiv",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex12_1/hub75/src/top.sv",
+    "ModuleLine" : 270,
+    "ModuleName" : "clock_divisor"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex12_1/hub75/src/top.sv",
+    "InstLine" : 236,
+    "InstName" : "oe_ctrl",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex12_1/hub75/src/top.sv",
+    "ModuleLine" : 286,
+    "ModuleName" : "oe_controller"
+   }
+  ]
+ }
+]

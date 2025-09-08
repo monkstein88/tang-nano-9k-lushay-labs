@@ -1,0 +1,28 @@
+[
+ {
+  "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex7_2/lfsr/design/top.sv",
+  "InstLine" : 3,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex7_2/lfsr/design/top.sv",
+  "ModuleLine" : 3,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex7_2/lfsr/design/top.sv",
+    "InstLine" : 40,
+    "InstName" : "scr",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex7_2/lfsr/design/screen.sv",
+    "ModuleLine" : 4,
+    "ModuleName" : "screen"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex7_2/lfsr/design/top.sv",
+    "InstLine" : 57,
+    "InstName" : "l1",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex7_2/lfsr/design/lfsr.sv",
+    "ModuleLine" : 160,
+    "ModuleName" : "lfsr"
+   }
+  ]
+ }
+]

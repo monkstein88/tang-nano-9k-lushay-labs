@@ -1,0 +1,56 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\flash.sv'
+WARN  (EX2478) : Non-net output port 'flashClk' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\flash.sv":11)
+WARN  (EX2478) : Non-net output port 'flashMosi' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\flash.sv":13)
+WARN  (EX2478) : Non-net output port 'flashCs' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\flash.sv":14)
+WARN  (EX2478) : Non-net output port 'charOutput' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\flash.sv":16)
+WARN  (EX2478) : Non-net output port 'hexChar' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\flash.sv":217)
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\screen.sv'
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\text.sv'
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\top.sv'
+WARN  (EX2478) : Non-net output port 'LED_O' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\top.sv":41)
+Compiling module 'top'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\top.sv":30)
+Compiling module 'screen(STARTUP_WAIT=270000)'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\screen.sv":4)
+Extracting RAM for identifier 'setupCommands'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\screen.sv":43)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\screen.sv":91)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\screen.sv":104)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\screen.sv":115)
+Compiling module 'textEngine'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\text.sv":4)
+Extracting RAM for identifier 'fontBuffer'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\text.sv":14)
+Compiling module 'flashNavigator'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\flash.sv":5)
+WARN  (EX3780) : Using initial value of 'command' since it is never assigned("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\flash.sv":23)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 9("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\flash.sv":86)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\flash.sv":108)
+WARN  (EX3791) : Expression size 25 truncated to fit in target size 24("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\flash.sv":128)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 24("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\flash.sv":131)
+Compiling module 'toHex'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\flash.sv":214)
+WARN  (EX1998) : Net 'readAddress[2]' does not have a driver("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\flash.sv":22)
+NOTE  (EX0101) : Current top module is "top"
+WARN  (EX0211) : The output port "LED_O[5]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\top.sv":41)
+WARN  (EX0211) : The output port "LED_O[4]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\top.sv":41)
+WARN  (EX0211) : The output port "LED_O[3]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\top.sv":41)
+WARN  (EX0211) : The output port "LED_O[2]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\top.sv":41)
+WARN  (EX0211) : The output port "LED_O[1]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\top.sv":41)
+WARN  (EX0211) : The output port "LED_O[0]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\top.sv":41)
+WARN  (EX0211) : The output port "UART_TX" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\top.sv":50)
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input UART_RX is unused("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\src\top.sv":49)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\impl\gwsynthesis\flash.vg" completed
+[100%] Generate report file "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex6_2\flash\impl\gwsynthesis\flash_syn.rpt.html" completed
+GowinSynthesis finish

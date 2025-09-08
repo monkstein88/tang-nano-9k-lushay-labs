@@ -1,0 +1,45 @@
+=N:[UsageMeter (2025-05-11 19:29:40 GTB Daylight Time)] usage server initial connection
+=N:[License] 
+Licensed for Altair DSim Cloud.
+=N:[License] New lease granted.
+Analyzing...
+Elaborating...
+  Top-level modules:
+    $unit
+    test
+  Found 6 unique specialization(s) of 6 design element(s).
+=W:[MissingTimescale]:
+    It is illegal for some design elements to have time specifications    
+    while others don't.  A complete time specification includes           
+    both a time unit and time precision.                                  
+
+        Have complete time spec    Have no/incomplete time spec    
+
+        test                       adc                             
+                                   i2c                             
+
+Optimizing...
+Building models...
+PLI/VPI access: +b 
+Simulation time precision is 1ns.
+  [1/7] module $root: 99 functions, 236 basic blocks
+  [2/7] module $pkgs: 1 functions, 2 basic blocks
+  [3/7] CU scope $unit: 1 functions, 2 basic blocks
+  [4/7] module test: 6 functions, 30 basic blocks
+  [5/7] package std: 23 functions, 64 basic blocks
+  [6/7] module i2c#(27000000): 4 functions, 101 basic blocks
+  [7/7] module adc#(73): 4 functions, 90 basic blocks
+Linking image.so...
+Using default typical min/typ/max.
+=S:Begin run-time elaboration and static initialization...
+=N:[dumpVCD] preparing VCD dump to 'adc.vcd'.
+=N:[dump] Dump started at time 0
+=N:Starting event scheduler...
+Starting ADC Module Test
+=W:[dump] ..\testbench\adc_tb.sv:25:5: $dumpfile() called, but dump already enabled.
+=W:[dump] ..\testbench\adc_tb.sv:26:5: $dumpvars() called after dumping started.
+=T:Simulation terminated by $finish at time 1000000 (..\testbench\adc_tb.sv:20);
+Run directory: C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\simulation
+  System timescale is 1ns / 1ns
+  Altair DSim version: 2025.0.1 (b:R #c:53 h:1668cd8edb os:msys2_)
+  Random seed: (defaulted to 1)

@@ -1,0 +1,132 @@
+[
+ {
+  "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+  "InstLine" : 126,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+  "ModuleLine" : 126,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+    "InstLine" : 171,
+    "InstName" : "scr",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/screen.sv",
+    "ModuleLine" : 4,
+    "ModuleName" : "screen"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+    "InstLine" : 182,
+    "InstName" : "te",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/text.sv",
+    "ModuleLine" : 4,
+    "ModuleName" : "textEngine"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+    "InstLine" : 190,
+    "InstName" : "fc",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/controller.sv",
+    "ModuleLine" : 9,
+    "ModuleName" : "memController"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+    "InstLine" : 209,
+    "InstName" : "sm",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/shared_memory.sv",
+    "ModuleLine" : 7,
+    "ModuleName" : "sharedMemory"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+    "InstLine" : 224,
+    "InstName" : "mr",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/memory_inc.sv",
+    "ModuleLine" : 77,
+    "ModuleName" : "memoryRead"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+    "InstLine" : 234,
+    "InstName" : "m1",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/memory_inc.sv",
+    "ModuleLine" : 7,
+    "ModuleName" : "memoryIncAtomic"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+    "InstLine" : 244,
+    "InstName" : "m2",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/memory_inc.sv",
+    "ModuleLine" : 7,
+    "ModuleName" : "memoryIncAtomic"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+    "InstLine" : 264,
+    "InstName" : "hexVal[0].converter",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+    "ModuleLine" : 291,
+    "ModuleName" : "toHex"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+    "InstLine" : 264,
+    "InstName" : "hexVal[1].converter",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+    "ModuleLine" : 291,
+    "ModuleName" : "toHex"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+    "InstLine" : 264,
+    "InstName" : "hexVal[2].converter",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+    "ModuleLine" : 291,
+    "ModuleName" : "toHex"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+    "InstLine" : 264,
+    "InstName" : "hexVal[3].converter",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+    "ModuleLine" : 291,
+    "ModuleName" : "toHex"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+    "InstLine" : 264,
+    "InstName" : "hexVal[4].converter",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+    "ModuleLine" : 291,
+    "ModuleName" : "toHex"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+    "InstLine" : 264,
+    "InstName" : "hexVal[5].converter",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+    "ModuleLine" : 291,
+    "ModuleName" : "toHex"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+    "InstLine" : 264,
+    "InstName" : "hexVal[6].converter",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+    "ModuleLine" : 291,
+    "ModuleName" : "toHex"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+    "InstLine" : 264,
+    "InstName" : "hexVal[7].converter",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+    "ModuleLine" : 291,
+    "ModuleName" : "toHex"
+   }
+  ]
+ }
+]

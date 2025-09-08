@@ -1,0 +1,21 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex11_1/composite/design/composite_count_test.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex11_1/composite/design/top.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex11_1/composite/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

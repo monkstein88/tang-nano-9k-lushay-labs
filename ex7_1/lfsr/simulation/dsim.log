@@ -1,0 +1,32 @@
+=N:[UsageMeter (2025-03-16 00:52:35 GTB Standard Time)] usage server initial connection
+=N:[License] 
+Licensed for Altair DSim Cloud.
+=N:[License] New lease granted.
+Analyzing...
+Elaborating...
+  Top-level modules:
+    $unit
+    test
+  Found 6 unique specialization(s) of 5 design element(s).
+Optimizing...
+Building models...
+PLI/VPI access: +b 
+Simulation time precision is 1ns.
+  [1/7] module $root: 99 functions, 236 basic blocks
+  [4/7] module test: 5 functions, 14 basic blocks
+  [6/7] module lfsr#(1,18,5): 5 functions, 17 basic blocks
+  [7/7] module lfsr#(1,27,5): 5 functions, 13 basic blocks
+Linking image.so...
+Using default typical min/typ/max.
+=S:Begin run-time elaboration and static initialization...
+=N:[dumpVCD] preparing VCD dump to 'lfsr_tb-waves.vcd'.
+=N:[dump] Dump started at time 0
+=N:Starting event scheduler...
+Starting LFSR Test
+=W:[dump] ..\testbench\lfsr_tb.sv:50:5: $dumpfile() called, but dump already enabled.
+=W:[dump] ..\testbench\lfsr_tb.sv:51:5: $dumpvars() called after dumping started.
+=T:Simulation terminated by $finish at time 1000 (..\testbench\lfsr_tb.sv:45);
+Run directory: C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex7\lfsr\simulation
+  System timescale is 1ns / 1ns
+  Altair DSim version: 2025.0.0000 (b:S #c:32 h:e6a01125e5 os:msys2_)
+  Random seed: (defaulted to 1)

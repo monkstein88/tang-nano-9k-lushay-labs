@@ -1,0 +1,90 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\arbiter_top.sv'
+WARN  (EX2478) : Non-net output port 'LED_O' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\arbiter_top.sv":137)
+WARN  (EX2478) : Non-net output port 'hexChar' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\arbiter_top.sv":294)
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\controller.sv'
+WARN  (EX2478) : Non-net output port 'grantedAccess' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\controller.sv":16)
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv'
+WARN  (EX2478) : Non-net output port 'requestingMemory' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":10)
+WARN  (EX2478) : Non-net output port 'address' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":11)
+WARN  (EX2478) : Non-net output port 'readWrite' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":12)
+WARN  (EX2478) : Non-net output port 'outputData' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":14)
+WARN  (EX2478) : Non-net output port 'requestingMemory' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":80)
+WARN  (EX2478) : Non-net output port 'address' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":81)
+WARN  (EX2478) : Non-net output port 'readWrite' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":82)
+WARN  (EX2478) : Non-net output port 'outputData' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":84)
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\screen.sv'
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\shared_memory.sv'
+WARN  (EX2478) : Non-net output port 'dataOut' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\shared_memory.sv":13)
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\text.sv'
+Compiling module 'top'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\arbiter_top.sv":126)
+Compiling module 'screen(STARTUP_WAIT=270000)'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\screen.sv":4)
+Extracting RAM for identifier 'setupCommands'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\screen.sv":43)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\screen.sv":91)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\screen.sv":104)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\screen.sv":115)
+Compiling module 'textEngine'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\text.sv":4)
+Extracting RAM for identifier 'fontBuffer'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\text.sv":14)
+Compiling module 'memController'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\controller.sv":9)
+Extracting RAM for identifier 'queue'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\controller.sv":49)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\controller.sv":80)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\controller.sv":85)
+Compiling module 'sharedMemory'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\shared_memory.sv":7)
+Extracting RAM for identifier 'storage'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\shared_memory.sv":20)
+Compiling module 'memoryRead'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":77)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":92)
+Compiling module 'memoryIncAtomic'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":7)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":27)
+Compiling module 'toHex'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\arbiter_top.sv":291)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\arbiter_top.sv":298)
+NOTE  (EX0101) : Current top module is "top"
+WARN  (EX0211) : The output port "address[7]" of module "memoryRead" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":81)
+WARN  (EX0211) : The output port "address[6]" of module "memoryRead" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":81)
+WARN  (EX0211) : The output port "address[5]" of module "memoryRead" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":81)
+WARN  (EX0211) : The output port "address[4]" of module "memoryRead" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":81)
+WARN  (EX0211) : The output port "address[3]" of module "memoryRead" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":81)
+WARN  (EX0211) : The output port "address[2]" of module "memoryRead" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":81)
+WARN  (EX0211) : The output port "address[1]" of module "memoryRead" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":81)
+WARN  (EX0211) : The output port "address[0]" of module "memoryRead" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":81)
+WARN  (EX0211) : The output port "address[7]" of module "memoryIncAtomic" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":11)
+WARN  (EX0211) : The output port "address[6]" of module "memoryIncAtomic" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":11)
+WARN  (EX0211) : The output port "address[5]" of module "memoryIncAtomic" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":11)
+WARN  (EX0211) : The output port "address[4]" of module "memoryIncAtomic" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":11)
+WARN  (EX0211) : The output port "address[3]" of module "memoryIncAtomic" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":11)
+WARN  (EX0211) : The output port "address[2]" of module "memoryIncAtomic" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":11)
+WARN  (EX0211) : The output port "address[1]" of module "memoryIncAtomic" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":11)
+WARN  (EX0211) : The output port "address[0]" of module "memoryIncAtomic" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\memory_inc.sv":11)
+WARN  (EX0211) : The output port "LED_O[5]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\arbiter_top.sv":137)
+WARN  (EX0211) : The output port "LED_O[4]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\arbiter_top.sv":137)
+WARN  (EX0211) : The output port "LED_O[3]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\arbiter_top.sv":137)
+WARN  (EX0211) : The output port "LED_O[2]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\arbiter_top.sv":137)
+WARN  (EX0211) : The output port "LED_O[1]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\arbiter_top.sv":137)
+WARN  (EX0211) : The output port "LED_O[0]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\arbiter_top.sv":137)
+WARN  (EX0211) : The output port "UART_TX" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\arbiter_top.sv":146)
+WARN  (EX0211) : The output port "FLASH_SPI_CS" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\arbiter_top.sv":148)
+WARN  (EX0211) : The output port "FLASH_SPI_MOSI" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\arbiter_top.sv":149)
+WARN  (EX0211) : The output port "FLASH_SPI_CLK" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\arbiter_top.sv":151)
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input BTN_S1 is unused("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\arbiter_top.sv":135)
+WARN  (CV0016) : Input BTN_S2 is unused("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\arbiter_top.sv":136)
+WARN  (CV0016) : Input UART_RX is unused("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\arbiter_top.sv":145)
+WARN  (CV0016) : Input FLASH_SPI_MISO is unused("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\design\arbiter_top.sv":150)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\impl\gwsynthesis\arbiter.vg" completed
+[100%] Generate report file "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\impl\gwsynthesis\arbiter_syn.rpt.html" completed
+GowinSynthesis finish

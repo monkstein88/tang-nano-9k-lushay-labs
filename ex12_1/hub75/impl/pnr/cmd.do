@@ -1,0 +1,18 @@
+-d C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_1\hub75\impl\gwsynthesis\hub75.vg
+-p GW1NR-9C-QFN88P-7
+-pn GW1NR-LV9QN88PC7/I6
+-cst C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_1\hub75\constraints\pinning_TankPrimer9K.cst
+-cfg C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_1\hub75\impl\pnr\device.cfg
+-sdc C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_1\hub75\constraints\timing_TankPrimer9K.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-place_option 0
+-route_option 0
+-clock_route_order 0
+-correct_hold 1
+-route_maxfan 23
+-global_freq 50.000

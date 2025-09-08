@@ -1,0 +1,46 @@
+[
+ {
+  "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex6_1/flash/src/top.sv",
+  "InstLine" : 30,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex6_1/flash/src/top.sv",
+  "ModuleLine" : 30,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex6_1/flash/src/top.sv",
+    "InstLine" : 76,
+    "InstName" : "scr",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex6_1/flash/src/screen.sv",
+    "ModuleLine" : 4,
+    "ModuleName" : "screen"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex6_1/flash/src/top.sv",
+    "InstLine" : 87,
+    "InstName" : "te",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex6_1/flash/src/text.sv",
+    "ModuleLine" : 4,
+    "ModuleName" : "textEngine"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex6_1/flash/src/top.sv",
+    "InstLine" : 98,
+    "InstName" : "externalFlash",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex6_1/flash/src/flash.sv",
+    "ModuleLine" : 5,
+    "ModuleName" : "flashNavigator",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex6_1/flash/src/flash.sv",
+      "InstLine" : 144,
+      "InstName" : "hexConvert",
+      "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex6_1/flash/src/flash.sv",
+      "ModuleLine" : 165,
+      "ModuleName" : "toHex"
+     }
+    ]
+   }
+  ]
+ }
+]

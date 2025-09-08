@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="7" Lut="42" T_Register="369(7)" T_Alu="119(0)" T_Lut="320(42)" T_Bsram="1(0)" T_Ssram="1(0)">
+ <SubModule name="scr" Register="58" Alu="16" Lut="113" T_Register="58(58)" T_Alu="16(16)" T_Lut="113(113)"/>
+ <SubModule name="te" Lut="10" Bsram="1" T_Lut="10(10)" T_Bsram="1(1)"/>
+ <SubModule name="fc" Register="10" Lut="53" Ssram="1" T_Register="10(10)" T_Lut="53(53)" T_Ssram="1(1)"/>
+ <SubModule name="sm" Register="64" Lut="3" T_Register="64(64)" T_Lut="3(3)"/>
+ <SubModule name="mr" Register="60" Alu="24" Lut="13" T_Register="60(60)" T_Alu="24(24)" T_Lut="13(13)"/>
+ <SubModule name="m1" Register="61" Alu="55" Lut="16" T_Register="61(61)" T_Alu="55(55)" T_Lut="16(16)"/>
+ <SubModule name="m2" Register="61" Alu="24" Lut="14" T_Register="61(61)" T_Alu="24(24)" T_Lut="14(14)"/>
+ <SubModule name="hexVal[0].converter" Register="6" Lut="7" T_Register="6(6)" T_Lut="7(7)"/>
+ <SubModule name="hexVal[1].converter" Register="6" Lut="7" T_Register="6(6)" T_Lut="7(7)"/>
+ <SubModule name="hexVal[2].converter" Register="6" Lut="7" T_Register="6(6)" T_Lut="7(7)"/>
+ <SubModule name="hexVal[3].converter" Register="6" Lut="7" T_Register="6(6)" T_Lut="7(7)"/>
+ <SubModule name="hexVal[4].converter" Register="6" Lut="7" T_Register="6(6)" T_Lut="7(7)"/>
+ <SubModule name="hexVal[5].converter" Register="6" Lut="7" T_Register="6(6)" T_Lut="7(7)"/>
+ <SubModule name="hexVal[6].converter" Register="6" Lut="7" T_Register="6(6)" T_Lut="7(7)"/>
+ <SubModule name="hexVal[7].converter" Register="6" Lut="7" T_Register="6(6)" T_Lut="7(7)"/>
+</Module>

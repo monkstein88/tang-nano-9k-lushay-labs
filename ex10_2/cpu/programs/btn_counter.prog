@@ -1,0 +1,86 @@
+; < Creating Another Program >
+;
+; Now some people would say the article is already long enough, we have already implemented an instruction set, a CPU module, an assembler and our own first program and we should probably wrap up.
+; But I can't help create a second program, to showcase how versatile our little language is. Let us create another file in our programs folder called btn_counter.prog. Here we will create a program that prints 
+; to the screen `btn pressed: ` and the number of times the button has been pressed.
+; This will showcase both working with the screen, as-well as recieving input from the button.
+
+CLR AC      ; screen pos in ac 
+PRNT 42h    ; 'B' 
+ADD 1       ; inc screen pos
+PRNT 74h    ; 't' 
+ADD 1       ; inc screen pos
+PRNT 6eh    ; 'n' 
+ADD 2       ; inc screen pos (+2)
+PRNT 50h    ; 'P'
+ADD 1       ; inc screen pos
+PRNT 72h    ; 'r'
+ADD 1       ; inc screen pos
+PRNT 65h    ; 'e'
+ADD 1       ; inc screen pos
+PRNT 73h    ; 's'
+ADD 1       ; inc screen pos
+PRNT 73h    ; 's'
+ADD 1       ; inc screen pos
+PRNT 65h    ; 'e'
+ADD 1       ; inc screen pos
+PRNT 64h    ; 'd'
+ADD 1       ; inc screen pos
+PRNT 3ah    ; ':'
+ADD 2       ; inc screen pos  (+2)
+STA C       ; c stores screen pos 
+CLR AC 
+JMPZ 60
+
+; We start off by printing the message Btn Pressed: to the screen, each time incrementing ac to increment the screen position before printing the next character. We store the final position, where we will want the number
+; to be written to into the c register and then jump to line 60.
+
+.org 60 
+CLR AC 
+ADD 30h    ; '0' 
+ADD A      ; a stores click count
+STA B      ; b stores character to print
+CLR AC
+ADD C       ; load screen pos
+PRNT B      ;
+CLR BTN     ; Clear AC if btn pressed
+JMPZ 80     ; if button is pressed jump down
+CLR AC
+JMPZ 60     ; button is not pressed reprint
+
+
+; At line 60 we clear the ac register in-order to load the a register which holds the current click counter, we also add 30 hex to convert the decimal number to ASCII. This works great up to 9, since ascii character 0x30 is "0" 
+; and 0x31 is "1" and so on. So our program will work up to nine, but that's ok to me for this example.
+; Once we have the ASCII char we want to print we store it in the b register since we need to put the character index into ac in-order to print. We do this by loading in the c register which is where we stored the char index.
+; With the char index set we print out the character we put in b and then run CLR BTN this will clear ac only if the button is pressed. We can combine this with a JMPZ which will only jump if ac is zero, so essentially we will 
+; only jump if the button is pressed. This allows us to branch to like 80 if the button is pressed, otherwise we loop back to line 60.
+
+; At line 80 we simply increment the a register which stores the click counter:
+
+.org 80
+CLR AC      
+ADD A       ; load current count
+ADD 1       ; increment count
+STA A       ; store updated count
+CLR AC
+JMPZ 100    ; jump to 100 for debounce
+
+; After incrementing A we jump to line 100 to wait for the button to be released, so that we only increment the button once per click.
+
+.org 100
+CLR AC
+ADD 1       ; load 1 into AC
+CLR BTN     ; clear if button is pressed
+JMPZ 100    ; if button is still pressed loop
+CLR AC      
+JMPZ 60     ; if button is not pressed reprint
+
+; At line 100, we set ac to 1 and then clear it only if the button is pressed. If the button is still pressed we loop back to 100 to try again. Once the button is released it will skip this jump and we can clear the ac register to
+; jump back to 60 to print the new value.
+
+; You can compile this new program by running:
+; > node scripts/assembler.js programs/btn_counter.prog
+
+; And then you can program it to the tang nano manually or by adding this to the cpu.lushay.json file under externalFlashFiles like our previous program.
+
+; Flashing it to the external flash you should now see our same FPGA core, running a completely different program, counting everytime we click on the button and printing it to the screen.

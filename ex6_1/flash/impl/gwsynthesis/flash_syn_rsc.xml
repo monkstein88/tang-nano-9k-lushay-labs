@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" T_Register="664(0)" T_Alu="16(0)" T_Lut="535(0)" T_Bsram="1(0)">
+ <SubModule name="scr" Register="58" Alu="16" Lut="119" T_Register="58(58)" T_Alu="16(16)" T_Lut="119(119)"/>
+ <SubModule name="te" Lut="9" Bsram="1" T_Lut="9(9)" T_Bsram="1(1)"/>
+ <SubModule name="externalFlash" Register="600" Lut="395" T_Register="606(600)" T_Lut="407(395)">
+  <SubModule name="hexConvert" Register="6" Lut="12" T_Register="6(6)" T_Lut="12(12)"/>
+ </SubModule>
+</Module>

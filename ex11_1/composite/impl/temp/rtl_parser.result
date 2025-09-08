@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex11_1/composite/design/top.sv",
+  "InstLine" : 337,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex11_1/composite/design/top.sv",
+  "ModuleLine" : 337,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex11_1/composite/design/top.sv",
+    "InstLine" : 358,
+    "InstName" : "cc",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex11_1/composite/design/composite_count_test.sv",
+    "ModuleLine" : 328,
+    "ModuleName" : "composite_count_test"
+   }
+  ]
+ }
+]

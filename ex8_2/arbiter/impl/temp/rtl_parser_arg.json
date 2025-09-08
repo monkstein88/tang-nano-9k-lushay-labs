@@ -1,0 +1,37 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/arbiter_top.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/controller.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/memory_inc.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/screen.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/shared_memory.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/design/text.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex8_2/arbiter/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

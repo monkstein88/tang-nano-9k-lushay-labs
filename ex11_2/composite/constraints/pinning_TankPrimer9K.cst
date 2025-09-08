@@ -1,0 +1,13 @@
+// The constraints file is pretty simple as we only have the clock signal and our three resistors. We can create a constraints file as follows:
+
+IO_LOC "refclk" 52;
+IO_PORT "refclk" PULL_MODE=UP IO_TYPE=LVCMOS33;
+
+IO_LOC "output_270ohm" 49;
+IO_PORT "output_270ohm" DRIVE=8 IO_TYPE=LVCMOS33 PULL_MODE=DOWN;
+
+IO_LOC "output_330ohm" 31;
+IO_PORT "output_330ohm" DRIVE=8 IO_TYPE=LVCMOS33 PULL_MODE=DOWN;
+
+IO_LOC "output_470ohm" 32;
+IO_PORT "output_470ohm" DRIVE=8 IO_TYPE=LVCMOS33 PULL_MODE=DOWN;

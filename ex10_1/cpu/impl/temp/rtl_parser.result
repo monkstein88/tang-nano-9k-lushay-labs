@@ -1,0 +1,44 @@
+[
+ {
+  "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex10/cpu/design/top.sv",
+  "InstLine" : 215,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex10/cpu/design/top.sv",
+  "ModuleLine" : 215,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex10/cpu/design/top.sv",
+    "InstLine" : 261,
+    "InstName" : "scr",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex10/cpu/design/screen.sv",
+    "ModuleLine" : 4,
+    "ModuleName" : "screenDriver"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex10/cpu/design/top.sv",
+    "InstLine" : 272,
+    "InstName" : "te",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex10/cpu/design/text.sv",
+    "ModuleLine" : 4,
+    "ModuleName" : "textEngine"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex10/cpu/design/top.sv",
+    "InstLine" : 286,
+    "InstName" : "externalFlahs",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex10/cpu/design/flash.sv",
+    "ModuleLine" : 9,
+    "ModuleName" : "flash"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex10/cpu/design/top.sv",
+    "InstLine" : 304,
+    "InstName" : "c",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex10/cpu/design/cpu.sv",
+    "ModuleLine" : 6,
+    "ModuleName" : "cpu"
+   }
+  ]
+ }
+]

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="8" Lut="16" T_Register="233(8)" T_Alu="85(0)" T_Lut="394(16)" T_Bsram="1(0)" T_Ssram="2(0)">
+ <SubModule name="scr" Register="63" Alu="16" Lut="151" T_Register="63(63)" T_Alu="16(16)" T_Lut="151(151)"/>
+ <SubModule name="te" Lut="10" Bsram="1" T_Lut="10(10)" T_Bsram="1(1)"/>
+ <SubModule name="u" Register="28" Lut="63" T_Register="28(28)" T_Lut="63(63)"/>
+ <SubModule name="row1" Register="6" Lut="28" Ssram="2" T_Register="6(6)" T_Lut="28(28)" T_Ssram="2(2)"/>
+ <SubModule name="cntM" Register="41" Alu="39" Lut="13" T_Register="41(41)" T_Alu="39(39)" T_Lut="13(13)"/>
+ <SubModule name="row2" Register="7" Lut="18" T_Register="7(7)" T_Lut="18(18)"/>
+ <SubModule name="row3" Register="7" Lut="29" T_Register="58(7)" T_Alu="24(0)" T_Lut="77(29)">
+  <SubModule name="h1" Register="6" Lut="7" T_Register="6(6)" T_Lut="7(7)"/>
+  <SubModule name="h2" Register="6" Lut="7" T_Register="6(6)" T_Lut="7(7)"/>
+  <SubModule name="dec" Register="39" Alu="24" Lut="34" T_Register="39(39)" T_Alu="24(24)" T_Lut="34(34)"/>
+ </SubModule>
+ <SubModule name="row4" Register="22" Alu="6" Lut="18" T_Register="22(22)" T_Alu="6(6)" T_Lut="18(18)"/>
+</Module>

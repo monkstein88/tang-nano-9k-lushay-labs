@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="3" Alu="8" Lut="13" T_Register="30(3)" T_Alu="8(8)" T_Lut="68(13)" T_Bsram="15(0)">
+ <SubModule name="pll"/>
+ <SubModule name="counts" Register="24" Lut="38" T_Register="24(24)" T_Lut="38(38)"/>
+ <SubModule name="ram" Register="3" Lut="17" Bsram="15" T_Register="3(3)" T_Lut="17(17)" T_Bsram="15(15)"/>
+</Module>

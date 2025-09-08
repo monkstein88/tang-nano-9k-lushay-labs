@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="hub75_demo_driver" Register="9" Alu="6" Lut="13" T_Register="22(9)" T_Alu="17(6)" T_Lut="16(13)">
+ <SubModule name="clkdiv" Register="12" Alu="11" Lut="2" T_Register="12(12)" T_Alu="11(11)" T_Lut="2(2)"/>
+ <SubModule name="oe_ctrl" Register="1" Lut="1" T_Register="1(1)" T_Lut="1(1)"/>
+</Module>

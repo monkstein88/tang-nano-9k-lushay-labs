@@ -1,0 +1,25 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex12_2/hub75/scripts/bottom_half_rom.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex12_2/hub75/scripts/top_half_rom.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex12_2/hub75/src/top.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex12_2/hub75/impl/temp/rtl_parser.result",
+ "Top" : "hub75_image_driver",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

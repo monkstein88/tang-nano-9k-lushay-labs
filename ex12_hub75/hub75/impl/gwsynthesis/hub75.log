@@ -1,0 +1,52 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\scripts\bottom_half_rom.v'
+WARN  (EX2478) : Non-net output port 'data' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\scripts\bottom_half_rom.v":1)
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\scripts\top_half_rom.v'
+WARN  (EX2478) : Non-net output port 'data' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\scripts\top_half_rom.v":1)
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\src\top.sv'
+WARN  (EX2478) : Non-net output port 'ADDR' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\src\top.sv":266)
+WARN  (EX2478) : Non-net output port 'OE' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\src\top.sv":267)
+WARN  (EX2478) : Non-net output port 'LATCH' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\src\top.sv":268)
+WARN  (EX2478) : Non-net output port 'clk_out' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\src\top.sv":271)
+Compiling module 'hub75_image_driver'("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\src\top.sv":256)
+Compiling module 'clock_divisor'("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\src\top.sv":374)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\src\top.sv":381)
+Compiling module 'framebuffer2Bit'("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\src\top.sv":398)
+Compiling module 'ROMTop'("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\scripts\top_half_rom.v":1)
+WARN  (EX2420) : Latch inferred for net 'data[5]'; We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\scripts\top_half_rom.v":1030)
+Compiling module 'ROMBottom'("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\scripts\bottom_half_rom.v":1)
+WARN  (EX2420) : Latch inferred for net 'data[5]'; We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\scripts\bottom_half_rom.v":1030)
+NOTE  (EX0101) : Current top module is "hub75_image_driver"
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input rst is unused("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\src\top.sv":265)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+WARN  (DI0003) : Latch inferred for net 'data[4]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\scripts\top_half_rom.v":1030)
+WARN  (DI0003) : Latch inferred for net 'data[3]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\scripts\top_half_rom.v":1030)
+WARN  (DI0003) : Latch inferred for net 'data[2]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\scripts\top_half_rom.v":1030)
+WARN  (DI0003) : Latch inferred for net 'data[1]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\scripts\top_half_rom.v":1030)
+WARN  (DI0003) : Latch inferred for net 'data[0]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\scripts\top_half_rom.v":1030)
+WARN  (DI0003) : Latch inferred for net 'data[5]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\scripts\top_half_rom.v":1030)
+WARN  (DI0003) : Latch inferred for net 'data[4]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\scripts\bottom_half_rom.v":1030)
+WARN  (DI0003) : Latch inferred for net 'data[3]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\scripts\bottom_half_rom.v":1030)
+WARN  (DI0003) : Latch inferred for net 'data[2]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\scripts\bottom_half_rom.v":1030)
+WARN  (DI0003) : Latch inferred for net 'data[1]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\scripts\bottom_half_rom.v":1030)
+WARN  (DI0003) : Latch inferred for net 'data[0]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\scripts\bottom_half_rom.v":1030)
+WARN  (DI0003) : Latch inferred for net 'data[5]';We do not recommend the use of latches in FPGA designs, as they may lead to timing problems("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\scripts\bottom_half_rom.v":1030)
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\impl\gwsynthesis\hub75.vg" completed
+[100%] Generate report file "C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_hub75\hub75\impl\gwsynthesis\hub75_syn.rpt.html" completed
+GowinSynthesis finish

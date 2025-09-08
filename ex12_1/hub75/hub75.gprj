@@ -1,0 +1,12 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC7/I6">gw1nr9c-019</Device>
+    <FileList>
+        <File path="src/top.sv" type="file.verilog" enable="1"/>
+        <File path="constraints/pinning_TankPrimer9K.cst" type="file.cst" enable="1"/>
+        <File path="constraints/timing_TankPrimer9K.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

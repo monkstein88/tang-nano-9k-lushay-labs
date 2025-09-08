@@ -1,0 +1,67 @@
+{
+  "extensionVersion": "1.3.4",
+  "fileName": "c:\\Users\\MonkPC\\workspaces\\FPGA\\GOWIN\\TangNano9K\\LushayLabs\\ex9\\ads1115_adc\\simulation\\adc.vcd",
+  "markerTime": null,
+  "altMarkerTime": null,
+  "selectedSignal": null,
+  "zoomRatio": 0.2,
+  "scrollLeft": 0,
+  "displayedSignals": [
+    {
+      "netlistId": 39,
+      "name": "test.i2cScl",
+      "numberFormat": "binary",
+      "colorIndex": 0,
+      "renderType": "binary",
+      "valueLinkCommand": ""
+    },
+    {
+      "netlistId": 40,
+      "name": "test.i2cSda",
+      "numberFormat": "binary",
+      "colorIndex": 0,
+      "renderType": "binary",
+      "valueLinkCommand": ""
+    },
+    {
+      "netlistId": 38,
+      "name": "test.i2cInstruction",
+      "numberFormat": "hexadecimal",
+      "colorIndex": 0,
+      "renderType": "multiBit",
+      "valueLinkCommand": ""
+    },
+    {
+      "netlistId": 36,
+      "name": "test.i2cComplete",
+      "numberFormat": "binary",
+      "colorIndex": 0,
+      "renderType": "binary",
+      "valueLinkCommand": ""
+    },
+    {
+      "netlistId": 35,
+      "name": "test.i2cByteToSend",
+      "numberFormat": "hexadecimal",
+      "colorIndex": 0,
+      "renderType": "multiBit",
+      "valueLinkCommand": ""
+    },
+    {
+      "netlistId": 15,
+      "name": "test.a.taskIndex",
+      "numberFormat": "hexadecimal",
+      "colorIndex": 0,
+      "renderType": "multiBit",
+      "valueLinkCommand": ""
+    },
+    {
+      "netlistId": 14,
+      "name": "test.a.subTaskIndex",
+      "numberFormat": "hexadecimal",
+      "colorIndex": 0,
+      "renderType": "multiBit",
+      "valueLinkCommand": ""
+    }
+  ]
+}

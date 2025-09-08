@@ -1,0 +1,124 @@
+[
+ {
+  "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+  "InstLine" : 417,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+  "ModuleLine" : 417,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+    "InstLine" : 456,
+    "InstName" : "scr",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/screen.sv",
+    "ModuleLine" : 4,
+    "ModuleName" : "screen"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+    "InstLine" : 467,
+    "InstName" : "te",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/text.sv",
+    "ModuleLine" : 4,
+    "ModuleName" : "textEngine"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+    "InstLine" : 516,
+    "InstName" : "c",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/i2c.sv",
+    "ModuleLine" : 6,
+    "ModuleName" : "i2c"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+    "InstLine" : 535,
+    "InstName" : "a",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/adc.sv",
+    "ModuleLine" : 6,
+    "ModuleName" : "adc"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+    "InstLine" : 627,
+    "InstName" : "hexValCh1[0].converter",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+    "ModuleLine" : 740,
+    "ModuleName" : "toHex"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+    "InstLine" : 627,
+    "InstName" : "hexValCh1[1].converter",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+    "ModuleLine" : 740,
+    "ModuleName" : "toHex"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+    "InstLine" : 627,
+    "InstName" : "hexValCh1[2].converter",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+    "ModuleLine" : 740,
+    "ModuleName" : "toHex"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+    "InstLine" : 627,
+    "InstName" : "hexValCh1[3].converter",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+    "ModuleLine" : 740,
+    "ModuleName" : "toHex"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+    "InstLine" : 633,
+    "InstName" : "hexValCh2[0].converter",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+    "ModuleLine" : 740,
+    "ModuleName" : "toHex"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+    "InstLine" : 633,
+    "InstName" : "hexValCh2[1].converter",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+    "ModuleLine" : 740,
+    "ModuleName" : "toHex"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+    "InstLine" : 633,
+    "InstName" : "hexValCh2[2].converter",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+    "ModuleLine" : 740,
+    "ModuleName" : "toHex"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+    "InstLine" : 633,
+    "InstName" : "hexValCh2[3].converter",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+    "ModuleLine" : 740,
+    "ModuleName" : "toHex"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+    "InstLine" : 643,
+    "InstName" : "dec1",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+    "ModuleLine" : 752,
+    "ModuleName" : "toDec"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+    "InstLine" : 652,
+    "InstName" : "dec2",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex9/ads1115_adc/design/ads1115_adc_top.sv",
+    "ModuleLine" : 752,
+    "ModuleName" : "toDec"
+   }
+  ]
+ }
+]

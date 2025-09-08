@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="10" Lut="24" Ssram="8" T_Register="271(10)" T_Alu="24(0)" T_Lut="506(24)" T_Bsram="1(0)" T_Ssram="8(8)">
+ <SubModule name="scr" Register="58" Alu="16" Lut="117" T_Register="58(58)" T_Alu="16(16)" T_Lut="117(117)"/>
+ <SubModule name="te" Lut="9" Bsram="1" T_Lut="9(9)" T_Bsram="1(1)"/>
+ <SubModule name="externalFlahs" Register="91" Lut="153" T_Register="91(91)" T_Lut="153(153)"/>
+ <SubModule name="c" Register="112" Alu="8" Lut="203" T_Register="112(112)" T_Alu="8(8)" T_Lut="203(203)"/>
+</Module>

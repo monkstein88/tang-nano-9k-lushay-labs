@@ -1,0 +1,130 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.11.01 (64-bit)"
+//Sat Mar 15 23:56:25 2025
+
+//Source file index table:
+//file0 "\C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex7/lfsr/design/lfsr.sv"
+//file1 "\C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex7/lfsr/design/screen.sv"
+//file2 "\C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex7/lfsr/design/top.sv"
+`timescale 100 ps/100 ps
+module top (
+  EXT_CLK,
+  BTN_S1,
+  BTN_S2,
+  LED_O,
+  LCD_RST,
+  LCD_SPI_CS,
+  LCD_SPI_SCLK,
+  LCD_SPI_DIN,
+  LCD_DC,
+  UART_RX,
+  UART_TX,
+  FLASH_SPI_CS,
+  FLASH_SPI_MOSI,
+  FLASH_SPI_MISO,
+  FLASH_SPI_CLK
+)
+;
+input EXT_CLK;
+input BTN_S1;
+input BTN_S2;
+output [5:0] LED_O;
+output LCD_RST;
+output LCD_SPI_CS;
+output LCD_SPI_SCLK;
+output LCD_SPI_DIN;
+output LCD_DC;
+input UART_RX;
+output UART_TX;
+output FLASH_SPI_CS;
+output FLASH_SPI_MOSI;
+input FLASH_SPI_MISO;
+output FLASH_SPI_CLK;
+wire VCC;
+wire GND;
+  TBUF LED_O_5_s0 (
+    .O(LED_O[0]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF LED_O_5_s1 (
+    .O(LED_O[1]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF LED_O_5_s2 (
+    .O(LED_O[2]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF LED_O_5_s3 (
+    .O(LED_O[3]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF LED_O_5_s4 (
+    .O(LED_O[4]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF LED_O_5_s5 (
+    .O(LED_O[5]),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF LCD_RST_s0 (
+    .O(LCD_RST),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF LCD_SPI_CS_s0 (
+    .O(LCD_SPI_CS),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF LCD_SPI_SCLK_s0 (
+    .O(LCD_SPI_SCLK),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF LCD_SPI_DIN_s0 (
+    .O(LCD_SPI_DIN),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF LCD_DC_s0 (
+    .O(LCD_DC),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF UART_TX_s0 (
+    .O(UART_TX),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF FLASH_SPI_CS_s0 (
+    .O(FLASH_SPI_CS),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF FLASH_SPI_MOSI_s0 (
+    .O(FLASH_SPI_MOSI),
+    .I(GND),
+    .OEN(VCC) 
+);
+  TBUF FLASH_SPI_CLK_s0 (
+    .O(FLASH_SPI_CLK),
+    .I(GND),
+    .OEN(VCC) 
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* top */

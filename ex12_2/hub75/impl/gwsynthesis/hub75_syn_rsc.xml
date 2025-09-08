@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="hub75_image_driver" Register="22" Alu="8" Lut="27" T_Register="26(22)" T_Alu="8(8)" T_Lut="829(27)">
+ <SubModule name="clkdiv" Register="4" Lut="4" T_Register="4(4)" T_Lut="4(4)"/>
+ <SubModule name="buffer" T_Lut="798(0)">
+  <SubModule name="rom_low" Lut="399" T_Lut="399(399)"/>
+  <SubModule name="rom_high" Lut="399" T_Lut="399(399)"/>
+ </SubModule>
+</Module>

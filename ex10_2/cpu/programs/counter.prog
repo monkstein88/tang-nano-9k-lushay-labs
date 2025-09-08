@@ -1,0 +1,30 @@
+; < Testing Our ISA >
+;
+; To get started let's create a new folder for our 'programs', we can simply call this programs and then inside let's create our first software script. Like mentioned above as a first example, let's recreate the counter example project we
+; created in episode one, this time using our ISA. To do this let's create a file in our programs folder called counter.prog (name & extension doesn't really matter)
+
+CLR AC
+STA B  ; B holds the current counter
+JMPZ 10 
+
+.org 10
+ADD B    ; reload current counter
+ADD 1    ; inc AC by 1
+STA B    ; store counter in B
+STA LED 
+WAIT 250
+WAIT 250
+WAIT 250
+WAIT 250 
+WAIT 250 ; wait 1 second
+CLR AC   ; clear AC so we jump in the next line 
+JMPZ 10
+
+
+; In this program we start off by storing 0 in register B which we will use to store the current count. We then create a new section at address 10 using the .org preprocessor. This is a useful feature, since we are performing "jump to
+; address" instructions it is helpful to have a way to say this code is located at address x.
+; The rest of the code is our main loop, here we start by adding the current counter value from the b register along with 1 to increment it. We then store the value back into b and also store the value in the LEDs to display the current
+; value. After this we wait 1 second (split into 4 instructions since the max parameter value is 255). Finally we clear ac so that we can jump back to the beginning of our loop, again incrementing and displaying the counter value each time.
+; Pretty cool, we have our first program ready, the next step is to create a binary file with the "assembled" version of our program, where each command here is converted into its binary format.
+; We can do this by creating an assembler program.
+

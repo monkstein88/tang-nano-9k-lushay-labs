@@ -1,0 +1,57 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\screen.sv'
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\text.sv'
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\top.sv'
+Compiling module 'top'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\top.sv":3)
+Compiling module 'screen'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\screen.sv":4)
+Extracting RAM for identifier 'setupCommands'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\screen.sv":44)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\screen.sv":93)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\screen.sv":107)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\screen.sv":118)
+Compiling module 'textEngine'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\text.sv":53)
+Extracting RAM for identifier 'fontBuffer'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\text.sv":61)
+Compiling module 'textRow(ADDRESS_OFFSET=6'd0)'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\text.sv":146)
+Extracting RAM for identifier 'textBuffer'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\text.sv":158)
+WARN  (EX3670) : Actual bit length 6 differs from formal bit length 8 for port 'readAddress'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\text.sv":112)
+Compiling module 'textRow(ADDRESS_OFFSET=6'd16)'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\text.sv":146)
+Extracting RAM for identifier 'textBuffer'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\text.sv":158)
+WARN  (EX3670) : Actual bit length 6 differs from formal bit length 8 for port 'readAddress'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\text.sv":118)
+Compiling module 'textRow(ADDRESS_OFFSET=6'd32)'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\text.sv":146)
+Extracting RAM for identifier 'textBuffer'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\text.sv":158)
+WARN  (EX3670) : Actual bit length 6 differs from formal bit length 8 for port 'readAddress'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\text.sv":124)
+Compiling module 'textRow(ADDRESS_OFFSET=6'd48)'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\text.sv":146)
+Extracting RAM for identifier 'textBuffer'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\text.sv":158)
+WARN  (EX3670) : Actual bit length 6 differs from formal bit length 8 for port 'readAddress'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\text.sv":130)
+NOTE  (EX0101) : Current top module is "top"
+WARN  (EX0211) : The output port "LED_O[5]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\top.sv":11)
+WARN  (EX0211) : The output port "LED_O[4]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\top.sv":11)
+WARN  (EX0211) : The output port "LED_O[3]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\top.sv":11)
+WARN  (EX0211) : The output port "LED_O[2]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\top.sv":11)
+WARN  (EX0211) : The output port "LED_O[1]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\top.sv":11)
+WARN  (EX0211) : The output port "LED_O[0]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\top.sv":11)
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input BTN_S1 is unused("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\top.sv":9)
+WARN  (CV0016) : Input BTN_S2 is unused("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\top.sv":10)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "textRow" instantiated to "t1" is swept in optimizing("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\text.sv":114)
+WARN  (NL0002) : The module "textRow" instantiated to "t2" is swept in optimizing("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\text.sv":120)
+WARN  (NL0002) : The module "textRow" instantiated to "t3" is swept in optimizing("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\text.sv":126)
+WARN  (NL0002) : The module "textRow" instantiated to "t4" is swept in optimizing("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\src\text.sv":132)
+[95%] Generate netlist file "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\impl\gwsynthesis\screen_text.vg" completed
+[100%] Generate report file "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex4\screen_text\impl\gwsynthesis\screen_text_syn.rpt.html" completed
+GowinSynthesis finish

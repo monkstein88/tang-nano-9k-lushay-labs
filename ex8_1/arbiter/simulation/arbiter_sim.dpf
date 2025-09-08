@@ -1,0 +1,20 @@
+---
+# Note: The contents of this file are automatically generated.
+# Any changes made by hand may be overwritten.
+version: '0.2'
+work_dir: .
+design_root_dir: ../.
+simulations:
+  - name: Sim 1 - controller - vcd
+    options: '-top work.test -L dut +acc+b -waves controller_waves.vcd'
+  - name: Sim 1 - controller - mcd
+    options: '-top work.test -L dut +acc+b -waves controller_waves.mxd'
+source_files:
+  - language: verilog
+    path: filelist_SV.txt
+    library_name: dut
+    file_list: relative-to-file
+  - language: verilog
+    path: ..\testbench\controller_tb.sv
+library_search_paths:
+  - $STD_LIBS\ieee93

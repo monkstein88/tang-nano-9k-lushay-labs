@@ -1,0 +1,88 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\adc.sv'
+WARN  (EX3792) : Literal value 'd111111111 truncated to fit in 8 bits("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\adc.sv":240)
+WARN  (EX2478) : Non-net output port 'outputData' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\adc.sv":12)
+WARN  (EX2478) : Non-net output port 'dataReady' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\adc.sv":13)
+WARN  (EX2478) : Non-net output port 'instructionI2C' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\adc.sv":16)
+WARN  (EX2478) : Non-net output port 'enableI2C' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\adc.sv":17)
+WARN  (EX2478) : Non-net output port 'byteToSendI2C' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\adc.sv":18)
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv'
+WARN  (EX2478) : Non-net output port 'LED_O' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":428)
+WARN  (EX2478) : Non-net output port 'ADC_I2C_ADDR' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":446)
+WARN  (EX2478) : Non-net output port 'hexChar' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":743)
+WARN  (EX2478) : Non-net output port 'thousands' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":755)
+WARN  (EX2478) : Non-net output port 'hundreds' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":756)
+WARN  (EX2478) : Non-net output port 'tens' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":757)
+WARN  (EX2478) : Non-net output port 'units' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":758)
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\i2c.sv'
+WARN  (EX2478) : Non-net output port 'sdaOut' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\i2c.sv":14)
+WARN  (EX2478) : Non-net output port 'isSending' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\i2c.sv":15)
+WARN  (EX2478) : Non-net output port 'scl' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\i2c.sv":17)
+WARN  (EX2478) : Non-net output port 'byteReceived' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\i2c.sv":22)
+WARN  (EX2478) : Non-net output port 'complete' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\i2c.sv":23)
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\screen.sv'
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\text.sv'
+Compiling module 'top'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":417)
+Compiling module 'screen(STARTUP_WAIT=270000)'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\screen.sv":4)
+Extracting RAM for identifier 'setupCommands'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\screen.sv":43)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\screen.sv":91)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\screen.sv":104)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\screen.sv":115)
+Compiling module 'textEngine'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\text.sv":4)
+Extracting RAM for identifier 'fontBuffer'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\text.sv":14)
+Compiling module 'i2c'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\i2c.sv":6)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\i2c.sv":57)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\i2c.sv":72)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\i2c.sv":88)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\i2c.sv":96)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\i2c.sv":107)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\i2c.sv":120)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\i2c.sv":128)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\i2c.sv":138)
+Compiling module 'adc(address=7'b1001001)'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\adc.sv":6)
+WARN  (EX3780) : Using initial value of 'setupRegister' since it is never assigned("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\adc.sv":25)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\adc.sv":233)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\adc.sv":235)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\adc.sv":239)
+Compiling module 'toHex'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":740)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 8("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":747)
+Compiling module 'toDec'("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":752)
+WARN  (EX3791) : Expression size 20 truncated to fit in target size 16("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":784)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":794)
+NOTE  (EX0101) : Current top module is "top"
+WARN  (EX0211) : The output port "LED_O[5]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":428)
+WARN  (EX0211) : The output port "LED_O[4]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":428)
+WARN  (EX0211) : The output port "LED_O[3]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":428)
+WARN  (EX0211) : The output port "LED_O[2]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":428)
+WARN  (EX0211) : The output port "LED_O[1]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":428)
+WARN  (EX0211) : The output port "LED_O[0]" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":428)
+WARN  (EX0211) : The output port "UART_TX" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":437)
+WARN  (EX0211) : The output port "FLASH_SPI_CS" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":439)
+WARN  (EX0211) : The output port "FLASH_SPI_MOSI" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":440)
+WARN  (EX0211) : The output port "FLASH_SPI_CLK" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":442)
+WARN  (EX0211) : The output port "ADC_I2C_ADDR" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":446)
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input BTN_S1 is unused("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":426)
+WARN  (CV0016) : Input BTN_S2 is unused("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":427)
+WARN  (CV0016) : Input UART_RX is unused("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":436)
+WARN  (CV0016) : Input FLASH_SPI_MISO is unused("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":441)
+WARN  (CV0016) : Input ADC_ALERT is unused("C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\design\ads1115_adc_top.sv":447)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\impl\gwsynthesis\ads1115_adc.vg" completed
+[100%] Generate report file "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex9\ads1115_adc\impl\gwsynthesis\ads1115_adc_syn.rpt.html" completed
+GowinSynthesis finish

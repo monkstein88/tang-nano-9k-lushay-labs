@@ -1,0 +1,10 @@
+[
+ {
+  "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex1/counter/src/counter.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex1/counter/src/counter.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top"
+ }
+]

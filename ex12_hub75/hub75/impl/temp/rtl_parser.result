@@ -1,0 +1,46 @@
+[
+ {
+  "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex12_hub75/hub75/src/top.sv",
+  "InstLine" : 256,
+  "InstName" : "hub75_image_driver",
+  "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex12_hub75/hub75/src/top.sv",
+  "ModuleLine" : 256,
+  "ModuleName" : "hub75_image_driver",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex12_hub75/hub75/src/top.sv",
+    "InstLine" : 283,
+    "InstName" : "clkdiv",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex12_hub75/hub75/src/top.sv",
+    "ModuleLine" : 374,
+    "ModuleName" : "clock_divisor"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex12_hub75/hub75/src/top.sv",
+    "InstLine" : 288,
+    "InstName" : "buffer",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex12_hub75/hub75/src/top.sv",
+    "ModuleLine" : 398,
+    "ModuleName" : "framebuffer2Bit",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex12_hub75/hub75/src/top.sv",
+      "InstLine" : 413,
+      "InstName" : "rom_low",
+      "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex12_hub75/hub75/scripts/top_half_rom.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "ROMTop"
+     },
+     {
+      "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex12_hub75/hub75/src/top.sv",
+      "InstLine" : 414,
+      "InstName" : "rom_high",
+      "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex12_hub75/hub75/scripts/bottom_half_rom.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "ROMBottom"
+     }
+    ]
+   }
+  ]
+ }
+]

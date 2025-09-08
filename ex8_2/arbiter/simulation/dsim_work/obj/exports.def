@@ -1,0 +1,17 @@
+LIBRARY image.so
+EXPORTS
+    image_version
+    RootPrecision
+    VHDLPrecision
+    CompMinTypMax
+    CompNosdfGiven
+    ZeroDelayEnabledFlags
+    LR.LogToPhy
+    LR.PhysNames
+    LBstd.C0bject.VTable.Uod
+    LBstd.C0bject.Fpre_randomize
+    LBstd.Cprocess.VTable
+    LR.coerce_region
+    LR.ZTimestep
+    LR_Uod
+    Root.VTable

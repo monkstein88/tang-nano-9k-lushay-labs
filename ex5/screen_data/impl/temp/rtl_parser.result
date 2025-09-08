@@ -1,0 +1,110 @@
+[
+ {
+  "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/rows.sv",
+  "InstLine" : 8,
+  "InstName" : "textRow",
+  "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/rows.sv",
+  "ModuleLine" : 8,
+  "ModuleName" : "textRow"
+ },
+ {
+  "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/top.sv",
+  "InstLine" : 22,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/top.sv",
+  "ModuleLine" : 22,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/top.sv",
+    "InstLine" : 51,
+    "InstName" : "scr",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/screen.sv",
+    "ModuleLine" : 4,
+    "ModuleName" : "screen"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/top.sv",
+    "InstLine" : 64,
+    "InstName" : "te",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/text.sv",
+    "ModuleLine" : 4,
+    "ModuleName" : "textEngine"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/top.sv",
+    "InstLine" : 75,
+    "InstName" : "u",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/uart.sv",
+    "ModuleLine" : 6,
+    "ModuleName" : "uart"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/top.sv",
+    "InstLine" : 85,
+    "InstName" : "row1",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/rows.sv",
+    "ModuleLine" : 55,
+    "ModuleName" : "uartTextRow"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/top.sv",
+    "InstLine" : 97,
+    "InstName" : "cntM",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/top.sv",
+    "ModuleLine" : 144,
+    "ModuleName" : "counterM"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/top.sv",
+    "InstLine" : 100,
+    "InstName" : "row2",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/rows.sv",
+    "ModuleLine" : 114,
+    "ModuleName" : "binaryRow"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/top.sv",
+    "InstLine" : 109,
+    "InstName" : "row3",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/rows.sv",
+    "ModuleLine" : 231,
+    "ModuleName" : "hexDecRow",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/rows.sv",
+      "InstLine" : 247,
+      "InstName" : "h1",
+      "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/rows.sv",
+      "ModuleLine" : 146,
+      "ModuleName" : "toHex"
+     },
+     {
+      "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/rows.sv",
+      "InstLine" : 248,
+      "InstName" : "h2",
+      "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/rows.sv",
+      "ModuleLine" : 146,
+      "ModuleName" : "toHex"
+     },
+     {
+      "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/rows.sv",
+      "InstLine" : 252,
+      "InstName" : "dec",
+      "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/rows.sv",
+      "ModuleLine" : 176,
+      "ModuleName" : "toDec"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/top.sv",
+    "InstLine" : 118,
+    "InstName" : "row4",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex5/screen_data/src/rows.sv",
+    "ModuleLine" : 282,
+    "ModuleName" : "progressRow"
+   }
+  ]
+ }
+]

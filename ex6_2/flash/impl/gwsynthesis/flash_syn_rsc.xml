@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="2" Lut="2" T_Register="733(2)" T_Alu="37(0)" T_Lut="636(2)" T_Bsram="1(0)">
+ <SubModule name="scr" Register="58" Alu="16" Lut="121" T_Register="58(58)" T_Alu="16(16)" T_Lut="121(121)"/>
+ <SubModule name="te" Lut="9" Bsram="1" T_Lut="9(9)" T_Bsram="1(1)"/>
+ <SubModule name="externalFlash" Register="636" Alu="21" Lut="457" T_Register="673(636)" T_Alu="21(21)" T_Lut="504(457)">
+  <SubModule name="hexConvert" Register="6" Lut="12" T_Register="6(6)" T_Lut="12(12)"/>
+  <SubModule name="addr[0].hexConv" Register="1" T_Register="1(1)"/>
+  <SubModule name="addr[1].hexConv" Register="6" Lut="7" T_Register="6(6)" T_Lut="7(7)"/>
+  <SubModule name="addr[2].hexConv" Register="6" Lut="7" T_Register="6(6)" T_Lut="7(7)"/>
+  <SubModule name="addr[3].hexConv" Register="6" Lut="7" T_Register="6(6)" T_Lut="7(7)"/>
+  <SubModule name="addr[4].hexConv" Register="6" Lut="7" T_Register="6(6)" T_Lut="7(7)"/>
+  <SubModule name="addr[5].hexConv" Register="6" Lut="7" T_Register="6(6)" T_Lut="7(7)"/>
+ </SubModule>
+</Module>

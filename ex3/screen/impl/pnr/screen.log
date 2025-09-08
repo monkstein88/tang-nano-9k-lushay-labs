@@ -1,0 +1,29 @@
+Reading netlist file: "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex3\screen\impl\gwsynthesis\screen.vg"
+Parsing netlist file "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex3\screen\impl\gwsynthesis\screen.vg" completed
+Processing netlist completed
+Reading constraint file: "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex3\screen\constr\pinning_TankPrimer9K.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex3\screen\impl\pnr\screen.power.html" completed
+Generate file "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex3\screen\impl\pnr\screen.pin.html" completed
+Generate file "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex3\screen\impl\pnr\screen.rpt.html" completed
+Generate file "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex3\screen\impl\pnr\screen.rpt.txt" completed
+Generate file "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex3\screen\impl\pnr\screen.tr.html" completed
+Tue Jan 21 00:53:48 2025
+

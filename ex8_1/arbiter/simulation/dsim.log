@@ -1,0 +1,29 @@
+=N:[UsageMeter (2025-04-02 00:57:47 GTB Daylight Time)] usage server initial connection
+=N:[License] 
+Licensed for Altair DSim Cloud.
+=N:[License] New lease granted.
+Analyzing...
+Elaborating...
+  Top-level modules:
+    $unit
+    test
+  Found 5 unique specialization(s) of 5 design element(s).
+Optimizing...
+Building models...
+PLI/VPI access: +b 
+Simulation time precision is 1ns.
+Linking image.so...
+Using default typical min/typ/max.
+=S:Begin run-time elaboration and static initialization...
+=N:[dumpMXD] preparing MXD dump to 'controller_waves.mxd'.
+=N:[dump] Dump started at time 0
+=N:Starting event scheduler...
+Starting CONTROLLER Test
+=W:[dump] ..\testbench\controller_tb.sv:21:5: $dumpfile() called, but dump already enabled.
+=W:[dump] ..\testbench\controller_tb.sv:22:5: $dumpvars() called after dumping started.
+=N:[dumpMXD] closing MXD dump
+=T:Simulation terminated by $finish at time 1000 (..\testbench\controller_tb.sv:16);
+Run directory: C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8\arbiter\simulation
+  System timescale is 1ns / 1ns
+  Altair DSim version: 2025.0.0000 (b:S #c:32 h:e6a01125e5 os:msys2_)
+  Random seed: (defaulted to 1)

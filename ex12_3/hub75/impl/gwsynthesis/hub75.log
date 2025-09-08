@@ -1,0 +1,38 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_3\hub75\scripts\bottom_half_rom.sv'
+WARN  (EX2478) : Non-net output port 'data' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_3\hub75\scripts\bottom_half_rom.sv":1)
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_3\hub75\scripts\top_half_rom.sv'
+WARN  (EX2478) : Non-net output port 'data' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_3\hub75\scripts\top_half_rom.sv":1)
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_3\hub75\src\top.sv'
+WARN  (EX2478) : Non-net output port 'ADDR' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_3\hub75\src\top.sv":268)
+WARN  (EX2478) : Non-net output port 'OE' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_3\hub75\src\top.sv":269)
+WARN  (EX2478) : Non-net output port 'LATCH' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_3\hub75\src\top.sv":270)
+WARN  (EX2478) : Non-net output port 'clk_out' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_3\hub75\src\top.sv":273)
+Compiling module 'hub75_image_driver'("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_3\hub75\src\top.sv":258)
+Compiling module 'clock_divisor'("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_3\hub75\src\top.sv":376)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_3\hub75\src\top.sv":383)
+Compiling module 'framebuffer2Bit'("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_3\hub75\src\top.sv":400)
+Compiling module 'ROMTop'("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_3\hub75\scripts\top_half_rom.sv":1)
+Compiling module 'ROMBottom'("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_3\hub75\scripts\bottom_half_rom.sv":1)
+NOTE  (EX0101) : Current top module is "hub75_image_driver"
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input rst is unused("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_3\hub75\src\top.sv":267)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_3\hub75\impl\gwsynthesis\hub75.vg" completed
+[100%] Generate report file "C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_3\hub75\impl\gwsynthesis\hub75_syn.rpt.html" completed
+GowinSynthesis finish

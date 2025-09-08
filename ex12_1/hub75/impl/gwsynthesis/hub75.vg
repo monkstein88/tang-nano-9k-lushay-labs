@@ -1,0 +1,603 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.12 (64-bit)"
+//Sat Sep  6 22:57:12 2025
+
+//Source file index table:
+//file0 "\C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex12_1/hub75/src/top.sv"
+`timescale 100 ps/100 ps
+module clock_divisor (
+  clk_d,
+  clk_master
+)
+;
+input clk_d;
+output clk_master;
+wire n18_1;
+wire n18_2;
+wire n17_1;
+wire n17_2;
+wire n16_1;
+wire n16_2;
+wire n15_1;
+wire n15_2;
+wire n14_1;
+wire n14_2;
+wire n13_1;
+wire n13_2;
+wire n12_1;
+wire n12_2;
+wire n11_1;
+wire n11_2;
+wire n10_1;
+wire n10_2;
+wire n9_1;
+wire n9_2;
+wire n8_1;
+wire n8_0_COUT;
+wire n5_6;
+wire n19_6;
+wire [10:0] counter;
+wire VCC;
+wire GND;
+  DFF counter_10_s0 (
+    .Q(counter[10]),
+    .D(n9_1),
+    .CLK(n5_6) 
+);
+defparam counter_10_s0.INIT=1'b0;
+  DFF counter_9_s0 (
+    .Q(counter[9]),
+    .D(n10_1),
+    .CLK(n5_6) 
+);
+defparam counter_9_s0.INIT=1'b0;
+  DFF counter_8_s0 (
+    .Q(counter[8]),
+    .D(n11_1),
+    .CLK(n5_6) 
+);
+defparam counter_8_s0.INIT=1'b0;
+  DFF counter_7_s0 (
+    .Q(counter[7]),
+    .D(n12_1),
+    .CLK(n5_6) 
+);
+defparam counter_7_s0.INIT=1'b0;
+  DFF counter_6_s0 (
+    .Q(counter[6]),
+    .D(n13_1),
+    .CLK(n5_6) 
+);
+defparam counter_6_s0.INIT=1'b0;
+  DFF counter_5_s0 (
+    .Q(counter[5]),
+    .D(n14_1),
+    .CLK(n5_6) 
+);
+defparam counter_5_s0.INIT=1'b0;
+  DFF counter_4_s0 (
+    .Q(counter[4]),
+    .D(n15_1),
+    .CLK(n5_6) 
+);
+defparam counter_4_s0.INIT=1'b0;
+  DFF counter_3_s0 (
+    .Q(counter[3]),
+    .D(n16_1),
+    .CLK(n5_6) 
+);
+defparam counter_3_s0.INIT=1'b0;
+  DFF counter_2_s0 (
+    .Q(counter[2]),
+    .D(n17_1),
+    .CLK(n5_6) 
+);
+defparam counter_2_s0.INIT=1'b0;
+  DFF counter_1_s0 (
+    .Q(counter[1]),
+    .D(n18_1),
+    .CLK(n5_6) 
+);
+defparam counter_1_s0.INIT=1'b0;
+  DFF counter_0_s0 (
+    .Q(counter[0]),
+    .D(n19_6),
+    .CLK(n5_6) 
+);
+defparam counter_0_s0.INIT=1'b0;
+  DFF counter_11_s0 (
+    .Q(clk_master),
+    .D(n8_1),
+    .CLK(n5_6) 
+);
+defparam counter_11_s0.INIT=1'b0;
+  ALU n18_s (
+    .SUM(n18_1),
+    .COUT(n18_2),
+    .I0(counter[1]),
+    .I1(counter[0]),
+    .I3(GND),
+    .CIN(GND) 
+);
+defparam n18_s.ALU_MODE=0;
+  ALU n17_s (
+    .SUM(n17_1),
+    .COUT(n17_2),
+    .I0(counter[2]),
+    .I1(GND),
+    .I3(GND),
+    .CIN(n18_2) 
+);
+defparam n17_s.ALU_MODE=0;
+  ALU n16_s (
+    .SUM(n16_1),
+    .COUT(n16_2),
+    .I0(counter[3]),
+    .I1(GND),
+    .I3(GND),
+    .CIN(n17_2) 
+);
+defparam n16_s.ALU_MODE=0;
+  ALU n15_s (
+    .SUM(n15_1),
+    .COUT(n15_2),
+    .I0(counter[4]),
+    .I1(GND),
+    .I3(GND),
+    .CIN(n16_2) 
+);
+defparam n15_s.ALU_MODE=0;
+  ALU n14_s (
+    .SUM(n14_1),
+    .COUT(n14_2),
+    .I0(counter[5]),
+    .I1(GND),
+    .I3(GND),
+    .CIN(n15_2) 
+);
+defparam n14_s.ALU_MODE=0;
+  ALU n13_s (
+    .SUM(n13_1),
+    .COUT(n13_2),
+    .I0(counter[6]),
+    .I1(GND),
+    .I3(GND),
+    .CIN(n14_2) 
+);
+defparam n13_s.ALU_MODE=0;
+  ALU n12_s (
+    .SUM(n12_1),
+    .COUT(n12_2),
+    .I0(counter[7]),
+    .I1(GND),
+    .I3(GND),
+    .CIN(n13_2) 
+);
+defparam n12_s.ALU_MODE=0;
+  ALU n11_s (
+    .SUM(n11_1),
+    .COUT(n11_2),
+    .I0(counter[8]),
+    .I1(GND),
+    .I3(GND),
+    .CIN(n12_2) 
+);
+defparam n11_s.ALU_MODE=0;
+  ALU n10_s (
+    .SUM(n10_1),
+    .COUT(n10_2),
+    .I0(counter[9]),
+    .I1(GND),
+    .I3(GND),
+    .CIN(n11_2) 
+);
+defparam n10_s.ALU_MODE=0;
+  ALU n9_s (
+    .SUM(n9_1),
+    .COUT(n9_2),
+    .I0(counter[10]),
+    .I1(GND),
+    .I3(GND),
+    .CIN(n10_2) 
+);
+defparam n9_s.ALU_MODE=0;
+  ALU n8_s (
+    .SUM(n8_1),
+    .COUT(n8_0_COUT),
+    .I0(clk_master),
+    .I1(GND),
+    .I3(GND),
+    .CIN(n9_2) 
+);
+defparam n8_s.ALU_MODE=0;
+  INV n5_s2 (
+    .O(n5_6),
+    .I(clk_d) 
+);
+  INV n19_s2 (
+    .O(n19_6),
+    .I(counter[0]) 
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* clock_divisor */
+module oe_controller (
+  n26_6,
+  n63_5,
+  counter,
+  OE_d
+)
+;
+input n26_6;
+input n63_5;
+input [6:4] counter;
+output OE_d;
+wire n9_5;
+wire VCC;
+wire GND;
+  LUT3 n9_s2 (
+    .F(n9_5),
+    .I0(counter[4]),
+    .I1(counter[5]),
+    .I2(counter[6]) 
+);
+defparam n9_s2.INIT=8'hFE;
+  DFFS OE_s0 (
+    .Q(OE_d),
+    .D(n9_5),
+    .CLK(n26_6),
+    .SET(n63_5) 
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* oe_controller */
+module hub75_demo_driver (
+  clk,
+  rst,
+  ADDR,
+  OE,
+  LATCH,
+  RGB1,
+  RGB2,
+  clk_out
+)
+;
+input clk;
+input rst;
+output [4:0] ADDR;
+output OE;
+output LATCH;
+output [2:0] RGB1;
+output [2:0] RGB2;
+output clk_out;
+wire clk_d;
+wire rst_d;
+wire n90_5;
+wire n39_3;
+wire n105_3;
+wire clk_out_d;
+wire n90_6;
+wire n90_7;
+wire RGB1_d_0_3;
+wire n39_4;
+wire LATCH_9;
+wire LAT_EN;
+wire LATCH_d;
+wire n35_1;
+wire n35_2;
+wire n34_1;
+wire n34_2;
+wire n33_1;
+wire n33_2;
+wire n32_1;
+wire n32_2;
+wire n31_1;
+wire n31_2;
+wire n30_1;
+wire n30_0_COUT;
+wire n26_6;
+wire n63_5;
+wire n36_6;
+wire clk_master;
+wire OE_d;
+wire [0:0] RGB1_d;
+wire [6:0] counter;
+wire VCC;
+wire GND;
+  IBUF clk_ibuf (
+    .O(clk_d),
+    .I(clk) 
+);
+  IBUF rst_ibuf (
+    .O(rst_d),
+    .I(rst) 
+);
+  OBUF ADDR_0_obuf (
+    .O(ADDR[0]),
+    .I(GND) 
+);
+  OBUF ADDR_1_obuf (
+    .O(ADDR[1]),
+    .I(GND) 
+);
+  OBUF ADDR_2_obuf (
+    .O(ADDR[2]),
+    .I(GND) 
+);
+  OBUF ADDR_3_obuf (
+    .O(ADDR[3]),
+    .I(GND) 
+);
+  OBUF ADDR_4_obuf (
+    .O(ADDR[4]),
+    .I(GND) 
+);
+  OBUF OE_obuf (
+    .O(OE),
+    .I(OE_d) 
+);
+  OBUF LATCH_obuf (
+    .O(LATCH),
+    .I(LATCH_d) 
+);
+  OBUF RGB1_0_obuf (
+    .O(RGB1[0]),
+    .I(RGB1_d[0]) 
+);
+  OBUF RGB1_1_obuf (
+    .O(RGB1[1]),
+    .I(GND) 
+);
+  OBUF RGB1_2_obuf (
+    .O(RGB1[2]),
+    .I(GND) 
+);
+  OBUF RGB2_0_obuf (
+    .O(RGB2[0]),
+    .I(GND) 
+);
+  OBUF RGB2_1_obuf (
+    .O(RGB2[1]),
+    .I(GND) 
+);
+  OBUF RGB2_2_obuf (
+    .O(RGB2[2]),
+    .I(GND) 
+);
+  OBUF clk_out_obuf (
+    .O(clk_out),
+    .I(clk_out_d) 
+);
+  LUT2 n90_s1 (
+    .F(n90_5),
+    .I0(n90_6),
+    .I1(n90_7) 
+);
+defparam n90_s1.INIT=4'h8;
+  LUT4 RGB1_d_0_s (
+    .F(RGB1_d[0]),
+    .I0(counter[6]),
+    .I1(counter[4]),
+    .I2(counter[5]),
+    .I3(RGB1_d_0_3) 
+);
+defparam RGB1_d_0_s.INIT=16'h4000;
+  LUT4 n39_s0 (
+    .F(n39_3),
+    .I0(counter[0]),
+    .I1(counter[1]),
+    .I2(n90_6),
+    .I3(n39_4) 
+);
+defparam n39_s0.INIT=16'h1000;
+  LUT3 n105_s0 (
+    .F(n105_3),
+    .I0(n90_7),
+    .I1(n90_6),
+    .I2(rst_d) 
+);
+defparam n105_s0.INIT=8'h8F;
+  LUT2 clk_out_d_s (
+    .F(clk_out_d),
+    .I0(counter[6]),
+    .I1(clk_master) 
+);
+defparam clk_out_d_s.INIT=4'hE;
+  LUT4 n90_s2 (
+    .F(n90_6),
+    .I0(counter[4]),
+    .I1(counter[5]),
+    .I2(counter[6]),
+    .I3(LAT_EN) 
+);
+defparam n90_s2.INIT=16'h1000;
+  LUT4 n90_s3 (
+    .F(n90_7),
+    .I0(counter[1]),
+    .I1(counter[2]),
+    .I2(counter[3]),
+    .I3(counter[0]) 
+);
+defparam n90_s3.INIT=16'h0100;
+  LUT4 RGB1_d_0_s0 (
+    .F(RGB1_d_0_3),
+    .I0(counter[0]),
+    .I1(counter[1]),
+    .I2(counter[2]),
+    .I3(counter[3]) 
+);
+defparam RGB1_d_0_s0.INIT=16'h8000;
+  LUT2 n39_s1 (
+    .F(n39_4),
+    .I0(counter[2]),
+    .I1(counter[3]) 
+);
+defparam n39_s1.INIT=4'h1;
+  LUT4 LATCH_s6 (
+    .F(LATCH_9),
+    .I0(counter[1]),
+    .I1(counter[2]),
+    .I2(counter[3]),
+    .I3(n90_6) 
+);
+defparam LATCH_s6.INIT=16'h0100;
+  DFFSE LAT_EN_s0 (
+    .Q(LAT_EN),
+    .D(GND),
+    .CLK(n26_6),
+    .CE(n90_5),
+    .SET(n63_5) 
+);
+defparam LAT_EN_s0.INIT=1'b1;
+  DFFR counter_6_s0 (
+    .Q(counter[6]),
+    .D(n30_1),
+    .CLK(n26_6),
+    .RESET(n105_3) 
+);
+defparam counter_6_s0.INIT=1'b0;
+  DFFR counter_5_s0 (
+    .Q(counter[5]),
+    .D(n31_1),
+    .CLK(n26_6),
+    .RESET(n105_3) 
+);
+defparam counter_5_s0.INIT=1'b0;
+  DFFR counter_4_s0 (
+    .Q(counter[4]),
+    .D(n32_1),
+    .CLK(n26_6),
+    .RESET(n105_3) 
+);
+defparam counter_4_s0.INIT=1'b0;
+  DFFR counter_3_s0 (
+    .Q(counter[3]),
+    .D(n33_1),
+    .CLK(n26_6),
+    .RESET(n105_3) 
+);
+defparam counter_3_s0.INIT=1'b0;
+  DFFR counter_2_s0 (
+    .Q(counter[2]),
+    .D(n34_1),
+    .CLK(n26_6),
+    .RESET(n105_3) 
+);
+defparam counter_2_s0.INIT=1'b0;
+  DFFR counter_1_s0 (
+    .Q(counter[1]),
+    .D(n35_1),
+    .CLK(n26_6),
+    .RESET(n105_3) 
+);
+defparam counter_1_s0.INIT=1'b0;
+  DFFR counter_0_s0 (
+    .Q(counter[0]),
+    .D(n36_6),
+    .CLK(n26_6),
+    .RESET(n105_3) 
+);
+defparam counter_0_s0.INIT=1'b0;
+  DFFRE LATCH_s3 (
+    .Q(LATCH_d),
+    .D(n39_3),
+    .CLK(n26_6),
+    .CE(LATCH_9),
+    .RESET(n63_5) 
+);
+defparam LATCH_s3.INIT=1'b0;
+  ALU n35_s (
+    .SUM(n35_1),
+    .COUT(n35_2),
+    .I0(counter[1]),
+    .I1(counter[0]),
+    .I3(GND),
+    .CIN(GND) 
+);
+defparam n35_s.ALU_MODE=0;
+  ALU n34_s (
+    .SUM(n34_1),
+    .COUT(n34_2),
+    .I0(counter[2]),
+    .I1(GND),
+    .I3(GND),
+    .CIN(n35_2) 
+);
+defparam n34_s.ALU_MODE=0;
+  ALU n33_s (
+    .SUM(n33_1),
+    .COUT(n33_2),
+    .I0(counter[3]),
+    .I1(GND),
+    .I3(GND),
+    .CIN(n34_2) 
+);
+defparam n33_s.ALU_MODE=0;
+  ALU n32_s (
+    .SUM(n32_1),
+    .COUT(n32_2),
+    .I0(counter[4]),
+    .I1(GND),
+    .I3(GND),
+    .CIN(n33_2) 
+);
+defparam n32_s.ALU_MODE=0;
+  ALU n31_s (
+    .SUM(n31_1),
+    .COUT(n31_2),
+    .I0(counter[5]),
+    .I1(GND),
+    .I3(GND),
+    .CIN(n32_2) 
+);
+defparam n31_s.ALU_MODE=0;
+  ALU n30_s (
+    .SUM(n30_1),
+    .COUT(n30_0_COUT),
+    .I0(counter[6]),
+    .I1(GND),
+    .I3(GND),
+    .CIN(n31_2) 
+);
+defparam n30_s.ALU_MODE=0;
+  INV n26_s2 (
+    .O(n26_6),
+    .I(clk_master) 
+);
+  INV n63_s2 (
+    .O(n63_5),
+    .I(rst_d) 
+);
+  INV n36_s2 (
+    .O(n36_6),
+    .I(counter[0]) 
+);
+  clock_divisor clkdiv (
+    .clk_d(clk_d),
+    .clk_master(clk_master)
+);
+  oe_controller oe_ctrl (
+    .n26_6(n26_6),
+    .n63_5(n63_5),
+    .counter(counter[6:4]),
+    .OE_d(OE_d)
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* hub75_demo_driver */

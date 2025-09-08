@@ -1,0 +1,29 @@
+Reading netlist file: "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex11_1\composite\impl\gwsynthesis\composite.vg"
+Parsing netlist file "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex11_1\composite\impl\gwsynthesis\composite.vg" completed
+Processing netlist completed
+Reading constraint file: "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex11_1\composite\constraints\pinning_TankPrimer9K.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex11_1\composite\impl\pnr\composite.power.html" completed
+Generate file "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex11_1\composite\impl\pnr\composite.pin.html" completed
+Generate file "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex11_1\composite\impl\pnr\composite.rpt.html" completed
+Generate file "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex11_1\composite\impl\pnr\composite.rpt.txt" completed
+Generate file "C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex11_1\composite\impl\pnr\composite.tr.html" completed
+Sat Aug 16 02:02:32 2025
+

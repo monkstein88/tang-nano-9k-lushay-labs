@@ -1,0 +1,36 @@
+[
+ {
+  "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex11_2/composite/design/top.sv",
+  "InstLine" : 501,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex11_2/composite/design/top.sv",
+  "ModuleLine" : 501,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex11_2/composite/design/top.sv",
+    "InstLine" : 516,
+    "InstName" : "pll",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex11_2/composite/design/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex11_2/composite/design/top.sv",
+    "InstLine" : 530,
+    "InstName" : "counts",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex11_2/composite/design/top.sv",
+    "ModuleLine" : 427,
+    "ModuleName" : "counts"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex11_2/composite/design/top.sv",
+    "InstLine" : 545,
+    "InstName" : "ram",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/GOWIN/TangNano9K/LushayLabs/ex11_2/composite/design/gowin_sp/gowin_sp.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_SP"
+   }
+  ]
+ }
+]

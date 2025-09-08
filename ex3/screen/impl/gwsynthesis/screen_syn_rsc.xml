@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="screen" Register="70" Alu="16" Lut="132" Bsram="1" T_Register="70(70)" T_Alu="16(16)" T_Lut="132(132)" T_Bsram="1(1)"/>

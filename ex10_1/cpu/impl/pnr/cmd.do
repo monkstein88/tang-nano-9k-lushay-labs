@@ -1,0 +1,18 @@
+-d C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex10\cpu\impl\gwsynthesis\cpu.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-LV9QN88PC6/I5
+-cst C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex10\cpu\constraints\pinning_TankPrimer9K.cst
+-cfg C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex10\cpu\impl\pnr\device.cfg
+-sdc C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex10\cpu\constraints\timing_TankPrimer9K.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-place_option 0
+-route_option 0
+-clock_route_order 0
+-correct_hold 1
+-route_maxfan 23
+-global_freq 50.000

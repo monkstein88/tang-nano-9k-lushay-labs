@@ -1,0 +1,30 @@
+=N:[UsageMeter (2025-01-12 17:18:42 GTB Standard Time)] usage server initial connection
+=N:[License] 
+Licensed for Metrics Design Automation.
+=N:[License] New lease granted.
+Analyzing...
+Elaborating...
+  Top-level modules:
+    $unit
+    uart_tb
+  Found 5 unique specialization(s) of 5 design element(s).
+Optimizing...
+Building models...
+PLI/VPI access: +b 
+Simulation time precision is 1ns.
+Linking image.so...
+Using default typical min/typ/max.
+=S:Begin run-time elaboration and static initialization...
+=N:[dumpVCD] preparing VCD dump to 'waves.vcd'.
+=N:[dump] Dump started at time 0
+=N:Starting event scheduler...
+Starting UART RX
+=W:[dump] ..\testbench\uart_tb.v:68: $dumpfile() called, but dump already enabled.
+=W:[dump] ..\testbench\uart_tb.v:69: $dumpvars() called after dumping started.
+LED Value 111111
+LED Value 011110
+=T:Simulation terminated by $finish at time 1154 (..\testbench\uart_tb.v:57);
+Run directory: C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex2\uart\simulation
+  System timescale is 1ns / 1ns
+  Altair DSim version: 20240923.5.0 (b:R #c:0 h:e17d082b08 os:msys2_)
+  Random seed: (defaulted to 1)

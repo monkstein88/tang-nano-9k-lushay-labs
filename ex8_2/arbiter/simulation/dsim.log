@@ -1,0 +1,37 @@
+=N:[UsageMeter (2025-04-19 01:46:47 GTB Daylight Time)] usage server initial connection
+=N:[License] 
+Licensed for Altair DSim Cloud.
+=N:[License] New lease granted.
+Analyzing...
+Elaborating...
+  Top-level modules:
+    $unit
+    test
+  Found 5 unique specialization(s) of 5 design element(s).
+=W:[MissingTimescale]:
+    It is illegal for some design elements to have time specifications    
+    while others don't.  A complete time specification includes           
+    both a time unit and time precision.                                  
+
+        Have complete time spec    Have no/incomplete time spec    
+
+        test                       memController                   
+
+Optimizing...
+Building models...
+PLI/VPI access: +b 
+Simulation time precision is 1ns.
+Linking image.so...
+Using default typical min/typ/max.
+=S:Begin run-time elaboration and static initialization...
+=N:[dumpVCD] preparing VCD dump to 'controller_waves.vcd'.
+=N:[dump] Dump started at time 0
+=N:Starting event scheduler...
+Starting CONTROLLER Test
+=W:[dump] ..\testbench\controller_tb.sv:23:5: $dumpfile() called, but dump already enabled.
+=W:[dump] ..\testbench\controller_tb.sv:24:5: $dumpvars() called after dumping started.
+=T:Simulation terminated by $finish at time 10000 (..\testbench\controller_tb.sv:18);
+Run directory: C:\Users\MonkPC\workspaces\FPGA\GOWIN\TangNano9K\LushayLabs\ex8_2\arbiter\simulation
+  System timescale is 1ns / 1ns
+  Altair DSim version: 2025.0.1 (b:R #c:53 h:1668cd8edb os:msys2_)
+  Random seed: (defaulted to 1)

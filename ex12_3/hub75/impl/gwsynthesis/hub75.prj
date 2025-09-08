@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NR-9C" package="QFN88P" speed="7" partNumber="GW1NR-LV9QN88PC7/I6"/>
+    <FileList>
+        <File path="C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_3\hub75\scripts\bottom_half_rom.sv" type="verilog"/>
+        <File path="C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_3\hub75\scripts\top_half_rom.sv" type="verilog"/>
+        <File path="C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_3\hub75\src\top.sv" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="50.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex12_3\hub75\impl\gwsynthesis\hub75.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="top_module" value="hub75_image_driver"/>
+        <Option type="vcc" value="1.2"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>
