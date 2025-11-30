@@ -1,0 +1,28 @@
+{
+    "uuid": "0499b542-d9d5-47b0-a355-5ba7babf5249",
+    "/__GLOBAL__": {
+        "/__GLOBAL__+General": [
+            {
+                "role": "user",
+                "username": "Monk M.",
+                "content": "what the code does",
+                "date": "11/10/2025, 12:40:55 AM",
+                "delay": 0,
+                "metadata": {}
+            },
+            {
+                "role": "assistant",
+                "username": "RapidGPT",
+                "content": "Looking at the code in `top.sv`, this is a comprehensive SystemVerilog project for an **HDMI EDID Reader** designed for the Tang Nano 9K FPGA board. Here's what the code does:\n\n## Project Overview\nThis is a portable EDID (Extended Display Identification Data) reader that can connect to HDMI displays and extract key information about their capabilities - specifically the display name and preferred resolution with refresh rate.\n\n## Key Functionality\n\n### 1. **EDID Data Extraction**\nThe system reads EDID data from connected displays via I2C communication over the HDMI DDC (Data Display Channel) pins. EDID is a 256-byte standard format that contains:\n- Display manufacturer and model information\n- Supported resolutions and timing specifications  \n- Preferred resolution and refresh rate\n- Color characteristics and other display properties\n\n### 2. **Data Parsing**\nThe code focuses on extracting specific information from the EDID structure:\n- **Display Name**: Found in descriptor blocks with a `0x000000FC00` prefix, stored as 13 ASCII characters\n- **Preferred Resolution**: Extracted from the first timing descriptor (18 bytes)\n  - Horizontal and vertical pixel counts (12-bit values packed into multiple bytes)\n  - Pixel clock rate (16-bit value in 10kHz units)\n- **Refresh Rate**: Calculated using the formula:\n  ```\n  Refresh Rate = (Pixel Clock × 10,000) / ((H_pixels + H_blanking) × (V_pixels + V_blanking))\n  ```\n\n### 3. **Hardware Optimization Challenge**\nThe code highlights a critical FPGA design consideration - the refresh rate calculation requires:\n- Adding two 12-bit numbers (video + blanking pixels) → 13-bit results\n- Multiplying two 13-bit numbers → 26-bit intermediate result\n- ",
+                "date": "11/10/2025, 12:41:20 AM",
+                "delay": 23.4,
+                "metadata": {
+                    "action": "general",
+                    "vendor": null,
+                    "topic": [],
+                    "anchor": []
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex13/hdmi_edid/hdl/top.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex13/hdmi_edid/hdl/hdmi_edid.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex13/hdmi_edid/hdl/i2c.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex13/hdmi_edid/hdl/screen.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex13/hdmi_edid/hdl/text.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex13/hdmi_edid/hdl/todec.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex13/hdmi_edid/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

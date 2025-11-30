@@ -1,0 +1,70 @@
+[
+ {
+  "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex13/hdmi_edid/hdl/top.sv",
+  "InstLine" : 4,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex13/hdmi_edid/hdl/top.sv",
+  "ModuleLine" : 4,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex13/hdmi_edid/hdl/top.sv",
+    "InstLine" : 30,
+    "InstName" : "scr",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex13/hdmi_edid/hdl/screen.sv",
+    "ModuleLine" : 4,
+    "ModuleName" : "screen"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex13/hdmi_edid/hdl/top.sv",
+    "InstLine" : 41,
+    "InstName" : "te",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex13/hdmi_edid/hdl/text.sv",
+    "ModuleLine" : 4,
+    "ModuleName" : "textEngine"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex13/hdmi_edid/hdl/top.sv",
+    "InstLine" : 63,
+    "InstName" : "c",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex13/hdmi_edid/hdl/i2c.sv",
+    "ModuleLine" : 6,
+    "ModuleName" : "i2c"
+   },
+   {
+    "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex13/hdmi_edid/hdl/top.sv",
+    "InstLine" : 81,
+    "InstName" : "e",
+    "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex13/hdmi_edid/hdl/hdmi_edid.sv",
+    "ModuleLine" : 189,
+    "ModuleName" : "hdmi_edid",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex13/hdmi_edid/hdl/hdmi_edid.sv",
+      "InstLine" : 473,
+      "InstName" : "vertConv",
+      "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex13/hdmi_edid/hdl/todec.sv",
+      "ModuleLine" : 2,
+      "ModuleName" : "toDec"
+     },
+     {
+      "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex13/hdmi_edid/hdl/hdmi_edid.sv",
+      "InstLine" : 482,
+      "InstName" : "horizConv",
+      "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex13/hdmi_edid/hdl/todec.sv",
+      "ModuleLine" : 2,
+      "ModuleName" : "toDec"
+     },
+     {
+      "InstFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex13/hdmi_edid/hdl/hdmi_edid.sv",
+      "InstLine" : 491,
+      "InstName" : "refreshConv",
+      "ModuleFile" : "C:/Users/MonkPC/workspaces/FPGA/Gowin/TangNano9K/LushayLabs/ex13/hdmi_edid/hdl/todec.sv",
+      "ModuleLine" : 2,
+      "ModuleName" : "toDec"
+     }
+    ]
+   }
+  ]
+ }
+]

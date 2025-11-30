@@ -1,0 +1,79 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\top.sv'
+Undeclared symbol 'i2cSDA', assumed default net type 'wire'("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\top.sv":60)
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\hdmi_edid.sv'
+WARN  (EX2478) : Non-net output port 'dataReady' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\hdmi_edid.sv":193)
+WARN  (EX2478) : Non-net output port 'instructionI2C' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\hdmi_edid.sv":195)
+WARN  (EX2478) : Non-net output port 'enableI2C' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\hdmi_edid.sv":196)
+WARN  (EX2478) : Non-net output port 'byteToSendI2C' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\hdmi_edid.sv":197)
+WARN  (EX2478) : Non-net output port 'edidDataOut' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\hdmi_edid.sv":204)
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\i2c.sv'
+WARN  (EX2478) : Non-net output port 'sdaOut' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\i2c.sv":14)
+WARN  (EX2478) : Non-net output port 'isSending' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\i2c.sv":15)
+WARN  (EX2478) : Non-net output port 'scl' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\i2c.sv":17)
+WARN  (EX2478) : Non-net output port 'byteReceived' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\i2c.sv":22)
+WARN  (EX2478) : Non-net output port 'complete' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\i2c.sv":23)
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\screen.sv'
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\text.sv'
+Analyzing Verilog file 'C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\todec.sv'
+WARN  (EX2478) : Non-net output port 'thousands' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\todec.sv":5)
+WARN  (EX2478) : Non-net output port 'hundreds' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\todec.sv":6)
+WARN  (EX2478) : Non-net output port 'tens' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\todec.sv":7)
+WARN  (EX2478) : Non-net output port 'units' cannot be initialized at declaration in SystemVerilog mode("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\todec.sv":8)
+Compiling module 'top'("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\top.sv":4)
+Extracting RAM for identifier 'NAME'("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\top.sv":135)
+Extracting RAM for identifier 'RESOULUTION'("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\top.sv":136)
+Compiling module 'screen(STARTUP_WAIT=32'b00000000100110001001011010000000)'("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\screen.sv":4)
+Extracting RAM for identifier 'setupCommands'("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\screen.sv":43)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\screen.sv":91)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\screen.sv":104)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\screen.sv":115)
+Compiling module 'textEngine'("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\text.sv":4)
+Extracting RAM for identifier 'fontBuffer'("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\text.sv":14)
+WARN  (EX3988) : Cannot open file 'font.hex'("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\text.sv":15)
+Compiling module 'i2c'("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\i2c.sv":6)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\i2c.sv":57)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\i2c.sv":72)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\i2c.sv":88)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\i2c.sv":96)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\i2c.sv":107)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\i2c.sv":120)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\i2c.sv":128)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\i2c.sv":138)
+Compiling module 'hdmi_edid'("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\hdmi_edid.sv":189)
+Extracting RAM for identifier 'screenName'("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\hdmi_edid.sv":251)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\hdmi_edid.sv":322)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\hdmi_edid.sv":353)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\hdmi_edid.sv":355)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\hdmi_edid.sv":370)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\hdmi_edid.sv":417)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\hdmi_edid.sv":431)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\hdmi_edid.sv":434)
+Compiling module 'toDec'("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\todec.sv":2)
+WARN  (EX3791) : Expression size 20 truncated to fit in target size 16("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\todec.sv":34)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\todec.sv":44)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "toDec" instantiated to "horizConv" is swept in optimizing("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\hdmi_edid.sv":489)
+WARN  (NL0002) : The module "toDec" instantiated to "refreshConv" is swept in optimizing("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\hdmi_edid.sv":498)
+WARN  (NL0002) : The module "toDec" instantiated to "vertConv" is swept in optimizing("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\hdmi_edid.sv":480)
+WARN  (NL0002) : The module "textEngine" instantiated to "te" is swept in optimizing("C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\hdl\top.sv":47)
+[95%] Generate netlist file "C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\impl\gwsynthesis\hdmi_edid.vg" completed
+[100%] Generate report file "C:\Users\MonkPC\workspaces\FPGA\Gowin\TangNano9K\LushayLabs\ex13\hdmi_edid\impl\gwsynthesis\hdmi_edid_syn.rpt.html" completed
+GowinSynthesis finish
